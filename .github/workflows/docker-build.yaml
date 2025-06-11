@@ -41,5 +41,5 @@ jobs:
           tags: ${{ env.REGISTRY }}/${{ github.repository }}:${{ env.TAG }}
           build-args: |
             CNPG_TAG=16
-            PGVECTORS_TAG=v0.2.0
+            PGVECTORS_TAG=v0.2.1
             TARGETARCH=amd64
